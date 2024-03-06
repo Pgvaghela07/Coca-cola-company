@@ -1,0 +1,223 @@
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* navbar */
+    .logo {
+        width: 30%;
+    }
+
+    .nav-details {
+        display: none;
+    }
+
+    /* page1 */
+    .carousel-item .bg-details1 {
+        width: 30%;
+        color: white;
+        position: absolute;
+        top: 30%;
+        right: 12%;
+    }
+
+    .carousel-item .bg-details1 h1 {
+        font-size: 17px;
+    }
+
+    .carousel-item .bg-details1 p {
+        margin-bottom: 0;
+        font-size: 9px;
+    }
+
+    .carousel-item .bg-details1 button {
+        font-size: 10px;
+        width: 50%;
+        background-color: white;
+        padding: 3px;
+        border-radius: 20px;
+    }
+
+    .carousel-item .bg-details2 {
+        width: 40%;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+
+    .carousel-item .bg-details2 h1 {
+        font-size: 17px;
+    }
+
+    .carousel-item .bg-details2 p {
+        margin-bottom: 0;
+        font-size: 9px;
+    }
+
+    .carousel-item .bg-details2 button {
+        font-size: 10px;
+        width: 50%;
+        background-color: white;
+        padding: 3px;
+        border-radius: 20px;
+    }
+
+    .carousel-item .bg-details3 {
+        width: 40%;
+        color: white;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .carousel-item .bg-details3 h1 {
+        font-size: 17px;
+    }
+
+    .carousel-item .bg-details3 p {
+        margin-bottom: 0;
+        font-size: 9px;
+    }
+
+    .carousel-item .bg-details3 button {
+        font-size: 10px;
+        width: 50%;
+        background-color: white;
+        padding: 3px;
+        border-radius: 20px;
+    }
+
+    /* page2 */
+
+    .page2 .product {
+        flex-direction: column;
+    }
+
+    .page2 .product .card {
+        width: 100%;
+    }
+
+    .page2 .product .card img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #btn {
+        padding: 5px;
+        font-size: 11px;
+        margin: 12px;
+    }
+
+    /* .page3 */
+
+    .page3 {
+        height: 300px;
+    }
+
+    .page3 .left img {
+        width: 100%;
+    }
+
+    .page3 .right h1 {
+        font-size: 22px;
+    }
+
+    .page3 .right input {
+        padding: 5px;
+        width: 100%;
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .page3 .right button {
+        width: 50%;
+        padding: 5px;
+        font-size: 9px;
+        margin: 5px 0;
+    }
+
+    /* page4 */
+
+    section {
+        flex-direction: column;
+    }
+
+    /* page5 */
+
+    .page5 .left,
+    .right {
+        width: 80%;
+        border-radius: 20px;
+        margin: 7px;
+    }
+
+    .page5 .left p,
+    .right p {
+        margin-bottom: 0;
+    }
+
+    .page5 .left button,
+    .right button {
+        font-size: 15px;
+        width: 40%;
+        padding: 5px;
+        border-radius: 20px;
+        margin: 10px 0;
+    }
+
+    /* page6 */
+
+    .page6 {
+        height: max-content;
+    }
+    .page6 h1 {
+    font-size: 25px;
+    margin: 20px;
+    }
+    .page6 .product{
+        flex-direction: column;
+    }
+    
+    .page6 .product .card {
+        width: 100%;
+    }
+
+    .page6 .product .card img {
+        padding: 5px;
+        width: 150px;
+        height: 150px;
+    }
+    .page6 .product .card span {
+        text-align: center;
+    }
+
+    /* footer */
+
+    footer{
+        height: max-content;
+        width: 100%;
+    }
+    footer section{
+        margin: 0;
+    }
+    footer .container .f-logo{
+        flex-direction: row;
+    }
+
+    footer section .f-details{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .social-media{
+        width: 100%;
+    }
+    .social-media span{
+        font-size: 18px;
+    }
+}
