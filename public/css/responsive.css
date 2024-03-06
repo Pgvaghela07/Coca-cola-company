@@ -1,9 +1,8 @@
 /* For Mobile Phones Portrait or Landscape View */
 @media screen and (max-device-width: 640px) {
 
-    body {
+    html,body {
         overflow-x: hidden;
-        white-space: auto;
         width: 100%;
     }
     nav i {
