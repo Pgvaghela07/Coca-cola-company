@@ -5,7 +5,14 @@
         overflow-x: hidden;
         width: 100%;
     }
-    nav i {
+    .line{
+        background-color: red;
+    }
+    .nav-details ul{
+        color: white;
+        flex-direction: column;
+    }
+    .nav i {
         opacity: 1;
     }
 
@@ -229,3 +236,5 @@
         font-size: 18px;
     }
 }
+
+
