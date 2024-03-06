@@ -3,7 +3,11 @@
 
     body {
         overflow-x: hidden;
+        white-space: auto;
         width: 100%;
+    }
+    nav i {
+        opacity: 1;
     }
 
     /* navbar */
@@ -149,25 +153,24 @@
 
     /* page5 */
 
-    .page5 .left,
-    .right {
+    .page5{
+        height: max-content;
+    }
+    .L-box1{
         width: 80%;
-        border-radius: 20px;
-        margin: 7px;
     }
-
-    .page5 .left p,
-    .right p {
-        margin-bottom: 0;
+    .L-box1 button ,.R-box2 button{
+        width: 50%;
+        margin-bottom: 10px;
     }
-
-    .page5 .left button,
-    .right button {
-        font-size: 15px;
-        width: 40%;
-        padding: 5px;
-        border-radius: 20px;
-        margin: 10px 0;
+    .R-box1{
+        width: 80%;
+    }
+    .L-box2{
+        width: 80%;
+    }
+    .R-box2{
+        width: 80%;
     }
 
     /* page6 */
@@ -205,8 +208,14 @@
     footer section{
         margin: 0;
     }
-    footer .container .f-logo{
+    .container #f-logo{
         flex-direction: row;
+    }
+    footer section img{
+    width: 50%;
+    }
+    footer section .location{
+    width: 45%;
     }
 
     footer section .f-details{
